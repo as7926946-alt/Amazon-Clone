@@ -18,19 +18,20 @@ html, body {
     padding: 6px;
     gap: 3px;
 }
+ #logo img {
+  height: 60px;
+  width: auto;
+  flex-shrink: 0;
+}
 @media (max-width: 768px){
   #logo img {
     height: 42px;
-    width: auto;
-    flex-shrink: 0;
   }
 }
-@media  (max-width:1024px){
-#logo img {
-  height:42px;
-  width: auto;
-  flex-shrink:0;
-}
+@media (min-width: 769px) and (max-width: 1024px){
+  #logo img {
+    height: 46px;
+  }
 }
 .location {
     display: flex;
@@ -111,7 +112,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4px 6pxpx;
+    padding: 4px 6px;
     color: white;
     flex-shrink: 0;
 }
